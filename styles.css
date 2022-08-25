@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 23rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.image-equi {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.middle-section > h3, .white-font{
+  color: hsl(0, 0%, 100%)
+}
+
+.middle-section > p, .creator > p{
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.middle-section{
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.display-flex {
+  display:flex;
+  justify-content: space-between;
+}
+
+.display-flex > p {
+  margin: 0;
+  margin-left: 0.7rem;
+}
+
+.image-icon {
+  height: 15px;
+  align-self: center;
+}
+.ethereum {
+  color: hsl(178, 100%, 50%);
+}
+
+.days {
+  color: hsl(215, 51%, 70%)
+}
+
+hr {
+  color: hsl(215, 32%, 27%)
+}
+.avatar {
+  width: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;;
+}
+
+.creator {
+  display: flex;
+  gap: 1rem;
+}
